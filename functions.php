@@ -92,4 +92,23 @@ $title = $da->Items->Item[0]->DetailPageURL;
 	return $title;
 }
 
+/* 
+
+Example Usage 
+<?php
+
+$isbn = '1101476346';
+$publickey = 'PUBLICKEY';
+$secretkey = 'SECRETKEY';
+$amazonid = 'AMAZON-20';
+
+$link = amazon_product_link($isbn,$publickey,$secretkey,$amazonid);
+
+echo '<a href="'.$link.'">Buy This Book!</a>';
+?>
+
+*/
+
+
+
 ?>
